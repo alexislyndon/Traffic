@@ -7,9 +7,9 @@
     Dim Wweight As Integer
     Dim cyclelength As Integer
     Dim counter, ic As Integer
-    Dim cnt As Integer = 1 '1N 2S 3W 4E test
+    Dim cnt As Integer = 1 '1N 2S 3W 4E test this is a change 
     Dim yy As Integer = 3 'length of yellow signal
-    Dim a, b, c, d As Integer
+    Dim a, b, c, d, e As Integer
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         dance() 'todo make the lights dance on startup
@@ -20,6 +20,7 @@
         b = 0
         c = 0
         d = 0
+        e = 0
         seconds.Interval = 1000 / Integer.Parse(TextBox2.Text)
         Nweight = Integer.Parse(weightNorth.Text)
         Sweight = Integer.Parse(weightSouth.Text)
