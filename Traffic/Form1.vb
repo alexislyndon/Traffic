@@ -12,7 +12,7 @@
     Dim a, b, c, d As Integer
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        dance()
+        dance() 'todo make the lights dance on startup
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles startBtn.Click 'start
