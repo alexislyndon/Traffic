@@ -7,7 +7,7 @@
     Dim Wweight As Integer
     Dim cyclelength As Integer
     Dim counter, ic As Integer
-    Dim cnt As Integer = 1 '1N 2S 3W 4E test this is a change 
+    Dim cnt As Integer = 1 '1N 2S 3W 4E test this is a change asdfasdf
     Dim yy As Integer = 3 'length of yellow signal
     Dim a, b, c, d, e As Integer
 
